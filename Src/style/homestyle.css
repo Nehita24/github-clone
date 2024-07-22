@@ -1,0 +1,22 @@
+body {
+  background-color: #0d1117;
+}
+
+/* Remove the default Bootstrap dropdown icon */
+.navbar .dropdown-toggle::after {
+  display: none;
+}
+
+/* Add the custom CSS to handle hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+/*Ensure dropdown menu closes properly when clicked outside */
+.dropdown-menu {
+  display: none;
+}
+
+/* Prevent the dropdown menu from closing on hover */
+.dropdown-menu:hover {
+  display: block;
+}
