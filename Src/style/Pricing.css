@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-text {
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.thebasics {
+    font-size: 16px;
+}
+
+.bg-primaryy {
+    border-radius: 20px;
+}
+
+.whihe-bg {
+    margin-bottom: 70px;
+}
+
+.shawdo {
+    box-shadow: 20px 10px 100px rgb(211,213,215);
+}
