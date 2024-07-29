@@ -4,24 +4,101 @@
     box-sizing: border-box;
 }
 
+/*  Start of header text */
 .hero-text {
-    font-size: 3em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
+    font-size: 4.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    font-weight: bolder;
 }
+/*  End of header text */
 
-.thebasics {
-    font-size: 16px;
-}
-
-.bg-primaryy {
-    border-radius: 20px;
-}
-
-.whihe-bg {
-    margin-bottom: 70px;
-}
-
+/* Strat of three cards shawdo */
 .shawdo {
-    box-shadow: 20px 10px 100px rgb(211,213,215);
+    box-shadow: 10px 30px 100px rgb(211,213,215);
 }
+/* End of three cards shawdo */
+
+/* start of long-card */
+.long-card {
+    height: 120vh;
+}
+/* end of long-card */
+
+.long-cards {
+    height: 120vh;
+}
+
+.long-cardd {
+    height: 124vh;
+}
+
+/* start editing card text */
+.edit-card-text {
+    color: grey;
+    font-size: 1em;
+    font-weight: bold;
+}
+/*end editing card text */
+
+/* start edit of Additional */
+.Additional {
+    font-size: 4.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    font-weight: bolder;
+    width:100%;
+}
+/* end edit of Additional */
+
+/* start of four-cards hearder */
+.GitHub {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+}
+
+.starting {
+    font-size: 1.1em;
+    color: grey;
+}
+
+.compare {
+    font-weight: bold;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.istcard {
+    transition: .3s;
+}
+
+.istcard:hover {
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+/* end of four-cards hearder */
+
+/* start of logo-hover */
+.text-hover:hover {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+/* end of logo-hover */
+
+/* start of image-text */
+.GitHubb {
+    color: rgb(119,196,241);
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.Readthecase {
+    color: rgb(119,196,241);
+    font-size: 1.4em;
+    font-weight: bold;
+}
+/* end of image-text */
+
+
